@@ -1,0 +1,33 @@
+@media (max-width: 1023px){
+	.article-content em{
+		padding-bottom: 5px;
+	}
+}
+
+@media (max-width: 991px){
+	.article-block .col-9 {
+		width:60%;
+	}
+    .article-block .col-3{ 
+    	width: 40%; 
+    }
+}
+
+@media (max-width: 767px){
+	h1{
+		font-size: 36px;
+		line-height: 40px;
+	}
+    .article-block .col-9{ 
+    	width: 100%; 
+    }
+    .article-block .col-3{
+     	display: none;
+     }
+    .article-content em{
+    	padding-bottom: 40px;
+    }
+    .main-banner .banner-content{
+    	padding-bottom: 40px;
+    }
+}
